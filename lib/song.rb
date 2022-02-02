@@ -1,5 +1,5 @@
 class Song 
-
+#class variables
     @@count=0
     @@genres=[]
     @@artists=[]
@@ -14,7 +14,7 @@ class Song
         @@count+=1
 
     end
-
+#self.count refers to the entire class itself
     def self.count
         @@count
     end
